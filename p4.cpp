@@ -1,3 +1,19 @@
+/*
+Problem#4
+You have a multiset containing several integers. Initially, it contains a1 elements equal to
+1, a2 elements equal to 2, ..., an elements equal to 𝑛.
+You may apply two types of operations:
+● choose two integers 𝑙 and 𝑟 (𝑙≤𝑟), then remove one occurrence of 𝑙, one occurrence of 𝑙+1, ...,
+one occurrence of 𝑟 from the multiset. This operation can be applied only if each number from 𝑙
+to 𝑟 occurs at least once in the multiset
+● choose two integers 𝑖 and 𝑥 (𝑥≥1), then remove 𝑥 occurrences of 𝑖 from the multiset. This
+operation can be applied only if the multiset contains at least 𝑥 occurrences of 𝑖
+What is the minimum number of operations required to delete all elements from the multiset?
+*/
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
