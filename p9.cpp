@@ -1,3 +1,25 @@
+/*
+Problem#9
+1) In this problem you are given two type of query
+1. Insert an integer to the list.
+2. Given an integer x, you're about to find an integer k which represent x's index if the list is sorted in
+ascending order. Note that in this problem we will use 1-based indexing.
+As the problem title suggest, this problem intended to be solved using O(log2
+(n)) for both insertion and
+getting X’s index
+Input
+The first line contains an integer Q, which denotes how many queries that follows. The next Q lines will be
+one of the type queries which follow this format:
+1 x means insert x to the list
+2 x means find x's index if the list is sorted in ascending order.
+Output
+For each query type 2, print a line containing an integer as the answer or print "-1" no quotes if the requested
+number does not exist in the current list
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // C++ program to insert a node in AVL tree
 #include<bits/stdc++.h>
 using namespace std;
