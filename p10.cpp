@@ -1,3 +1,29 @@
+/*
+Problem#10 - (Extended of problem 9)
+We extended previous Problem by adding extra queries:
+This problem is simple. Initially, there is a list and it's empty. Then you are given four types of query.
+1. Insert data to the list
+2. Remove data from the list
+3. Print an index (1-based) from a specified data after the list was sorted ascendingly
+4. Print data from a specified index (1-based) after the list was sorted ascendingly
+We want to make insertion, deletion, getting operations in O(log2
+(n))
+Input
+Input contains several lines. Each line follows one of these formats.
+1 n: Insert n (0 <= n <= 231
+- 1) to the list
+2 n: Remove n from the list. If n was not found, do nothing
+3 n: Print n's index (1-based) after the list was sorted ascendingly
+4 i: Print data on i-th index (1-based) after the list was sorted ascendingly (0 <= i <= 231
+- 1)
+-1: End of input
+Output
+For each query 3, print n's index in one line. If n was not found, just print -1
+For each query 4, print data on i-th index in one line. If the index is not valid, just print -1
+*/
+
+
+
 // C++ program to insert a node in AVL tree
 #include<bits/stdc++.h>
 using namespace std;
@@ -404,9 +430,5 @@ int main()
 
         }
     }
-
-
-
-
     return 0;
 }
